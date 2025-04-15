@@ -1,0 +1,104 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$main-font-color: #202128;
+$buttons-bg-color: #fed7a5;
+$sections-bg-color: #73766a;
+$header-bg: #204354;
+$cards-bg-color: #9e6752;
+$borders-bg-color: #534145;
+$h1-font-size: 5rem;
+$h2-font-size: 2.5rem;
+
+
+%card {
+    background-color: $cards-bg-color;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+%header {
+    background-color: $header-bg;
+    color: $main-font-color;
+    padding: 20px;
+    text-align: center;
+}
+
+%allert {
+    @include center;
+    border-radius: 10px;
+    width: 100%;
+    font-size: $h2-font-size - 1rem;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+danger-allert {
+    @extend %allert;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+success-allert {
+    @extend %allert;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+warning-allert {
+    @extend %allert;
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+info-allert {
+    @extend %allert;
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+%section {
+    background-color: $sections-bg-color;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+%button {
+    background-color: $buttons-bg-color;
+    color: $main-font-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+%border {
+    border: 2px solid $borders-bg-color;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+%h1 {
+    font-size: $h1-font-size;
+    color: $main-font-color;
+}
+
+%h2 {
+    font-size: $h2-font-size;
+    color: $main-font-color;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    padding: 100px 0;
+}
