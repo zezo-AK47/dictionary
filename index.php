@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="row text-center g-4 mt-5">
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Adding New Words to the Dictionary (Insert Page)</h5>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Fixing Mistakes or Removing Words (Update and Delete Pages)</h5>
