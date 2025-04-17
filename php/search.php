@@ -83,11 +83,11 @@ mysqli_close($conn);
                                 <td>
                                     <form method="POST" action="./delete.php?term=<?= $row['term'] ?>" class="d-inline">
                                         <input type="hidden" name="id" value="<?= $row['id'] ?>">
-                                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                        <button type="submit" class="btn mb-3 btn-sm btn-danger">Delete</button>
                                     </form>
-                                    <form method="POST" action="./update.php?term=<?= $row['term'] ?>" class="d-inline">
+                                    <form method="POST" action="./update.php" class="d-inline">
                                         <input type="hidden" name="id" value="<?= $row['id'] ?>">
-                                        <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                                        <button type="submit" class="btn mb-3 btn-sm btn-primary">Update</button>
                                     </form>
                                 </td>
                             </tr>

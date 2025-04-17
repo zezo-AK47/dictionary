@@ -25,7 +25,7 @@
     <section class="py-5">
         <div class="container">
             <div class="row text-center g-4">
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Your Awesome Programming Dictionary!</h5>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Decoding Computer Language!</h5>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="500">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">A Helpful Tool for Code Learners!</h5>
@@ -51,31 +51,31 @@
                 </div>
             </div>
             <div class="row text-center g-4 mt-5">
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Adding New Words to the Dictionary (Insert Page)</h5>
                             <p class="card-text">Imagine you're adding new pages to a big, cool notebook. On your "Insert" page, you can type in new programming words and their meanings. It's like you're teaching your website new things! You're telling it, "Hey, this word means this!" This page helps your dictionary grow bigger and better.</p>
-                            <a href="./php/insert.php" class="btn btn-primary">Try Adding new one now!</a>
+                            <a href="./php/insert.php" class="btn mb-3 btn-primary">Try Adding new one now!</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Fixing Mistakes or Removing Words (Update and Delete Pages)</h5>
                             <p class="card-text">Oops, did you write something wrong? Or maybe a word isn't needed anymore? No problem! The "Update" page lets you change the meaning of a word, like fixing a typo in your notebook. And the "Delete" page is like using an eraser to take away a word completely. It's all about keeping your dictionary neat and correct!</p>
-                            <a href="./php/update.php" class="btn btn-primary">Update Page</a>
-                            <a href="./php/delete.php" class="btn btn-primary">Delete Page</a>
+                            <a href="./php/update.php" class="btn mb-3 btn-primary">Update Page</a>
+                            <a href="./php/delete.php" class="btn mb-3 btn-primary">Delete Page</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="500">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title">Finding the Words You Need (Search Page)</h5>
                             <p class="card-text">Think of your "Search" page as a super-fast way to find any word in your dictionary. Just type in the word you're looking for, and poof! Your website will find it for you right away. It's like having a magic finder that helps you learn quickly! This page makes it super easy to explore all the programming terms you've added.</p>
-                            <a href="./php/search.php" class="btn btn-primary">Try Searching now!</a>
+                            <a href="./php/search.php" class="btn mb-3 btn-primary">Try Searching now!</a>
                         </div>
                     </div>
                 </div>
