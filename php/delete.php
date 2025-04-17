@@ -16,11 +16,10 @@ if (isset($_POST['Submit'])) {
     $stmt = mysqli_prepare($conn, $sql);
 
     if ($stmt) {
-        mysqli_stmt_bind_param($stmt, "i", $term); // 'i' indicates the parameter is an integer
+        mysqli_stmt_bind_param($stmt, "s", $term); // 'i' indicates the parameter is an integer
 
         if (mysqli_stmt_execute($stmt)) {
-            // echo "Data deleted successfully!";
-            //  header("Location: your_page.php"); //removed header
+            header("Location: search.php?status=success&action=delete");
         } else {
             echo "Error deleting data: " . mysqli_error($conn);
         }
