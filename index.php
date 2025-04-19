@@ -19,7 +19,7 @@
         <div class="container">
             <h1 data-aos="fade-up" data-aos-duration="1000">Welcome to the Programming Terms Dictionary</h1>
             <p data-aos="fade-up" data-aos-delay="300" class="lead">Your go-to web application for understanding and managing programming concepts.</p>
-            <a href="php/search.php" class="btn btn-light btn-lg mt-4" data-aos="zoom-in" data-aos-delay="600">Explore Dictionary</a>
+            <a href="php/search.php" class="btn btn-light btn-lg mt-4" data-aos="zoom-in" id="explore" data-aos-delay="600">Explore Dictionary</a>
         </div>
     </section>
     <section class="py-5">
