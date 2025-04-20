@@ -66,16 +66,16 @@ mysqli_close($conn);
             <h2 class="mb-3">Add New Term</h2>
             <form method="POST" action="./insert.php" class="row g-3">
                 <div class="col-12">
-                    <input type="text" name="term" class="form-control mb-3" placeholder="Term" required>
+                    <input type="text" id="term" name="term" class="form-control mb-3" placeholder="Term" required>
                 </div>
                 <div class="col-12">
-                    <input type="text" name="translation" class="form-control mb-3" placeholder="Translation" required>
+                    <input type="text" id="translation" name="translation" class="form-control mb-3" placeholder="Translation" required>
                 </div>
                 <div class="col-12">
-                    <input type="text" name="definition" class="form-control mb-3" placeholder="Definition" required>
+                    <input type="text" id="definition" name="definition" class="form-control mb-3" placeholder="Definition" required>
                 </div>
                 <div class="col-12">
-                    <button type="submit" name="Submit" class="btn btn-success w-100">Add</button>
+                    <button type="submit" id="submit" name="Submit" class="btn btn-success w-100">Add</button>
                 </div>
             </form>
             <?php if (isset($_GET['status']) && $_GET['status'] == 'success'): ?>

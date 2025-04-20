@@ -1,0 +1,102 @@
+Variable
+Function
+Loop
+Conditional Statement
+Algorithm
+Code
+Bug
+Debugging
+Syntax
+Compiler
+Interpreter
+Data Type
+String
+Integer
+Float
+Boolean
+Array
+Object
+Class
+Inheritance
+Library
+API (Application Programming Interface)
+Server
+Client
+Database
+Algorithm Efficiency
+User Interface (UI)
+User Experience (UX)
+Input
+Output
+Operator
+Assignment
+Comment
+Algorithm Design
+Source Code
+Executable File
+Framework
+Version Control
+Repository
+Testing
+Documentation
+Algorithm Complexity
+Data Structure
+Queue
+Stack
+Tree
+Graph
+Iteration
+Recursion
+API Endpoint
+Protocol
+Security
+Encryption
+Debugging Tool
+IDE (Integrated Development Environment)
+Module
+Package
+Import
+Export
+Initialize
+Declare
+Constant
+Event
+Event Handler
+Graphical User Interface (GUI)
+Command Line Interface (CLI)
+Algorithm Optimization
+Big O Notation
+Data Abstraction
+Encapsulation
+Polymorphism
+Recursion Depth
+Base Case (in Recursion)
+Algorithm Paradigm
+Bit
+Byte
+Memory Address
+Pointer
+API Key
+Response (from API)
+Request (to API)
+Thread
+Concurrency
+Parallelism
+Latency
+Bandwidth
+Firewall
+Malware
+Encryption Key
+Hash Function
+Cloud Computing
+Virtual Machine (VM)
+Container
+Scalability
+Load Balancing
+Real-time
+Open Source
+Proprietary Software
+Machine Learning (ML)
+Artificial Intelligence (AI)
+Deep Learning
+Data Science
